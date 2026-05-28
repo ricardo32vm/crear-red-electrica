@@ -1,0 +1,17 @@
+[general]
+name=Crear Red Electrica
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Plugin para digitalizar redes electricas: nodos, seccionadores, reconectadores, subestaciones, fusibles y lineas, con autonumeracion y campos automaticos.
+version=2.0.0
+author=Tu Nombre
+email=tu@email.com
+about=Permite crear capas de elementos electricos (nodos, seccionadores, reconectadores, subestaciones y fusibles) con autonumeracion automatica. Las lineas detectan el elemento mas cercano en cualquiera de las capas y completan start_line y end_line automaticamente. Los elementos conectados tambien reciben el ID de la linea en sus campos end_line y start_line. CRS: EPSG:22174.
+tracker=
+repository=
+tags=electricidad, redes, nodos, lineas, seccionadores, reconectadores, subestaciones, fusibles, digitalizacion
+homepage=
+category=Vector
+icon=icons/icon_nodo.svg
+experimental=False
+deprecated=False
